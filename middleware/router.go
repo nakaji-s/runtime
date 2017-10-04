@@ -247,7 +247,7 @@ func (d *defaultRouteBuilder) AddRoute(method, path string, operation *spec.Oper
 			Producers:      d.api.ProducersFor(normalizeOffers(produces)),
 			Parameters:     parameters,
 			Formats:        d.api.Formats(),
-			Binder:         newUntypedRequestBinder(parameters, d.spec.Spec(), d.api.Formats()),
+			Binder:         NewUntypedRequestBinder(parameters, d.spec.Spec(), d.api.Formats()),
 			Authenticators: d.api.AuthenticatorsFor(definitions),
 			Authorizer:     d.api.Authorizer(),
 			Scopes:         scopes,

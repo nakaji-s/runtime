@@ -33,7 +33,7 @@ type untypedRequestBinder struct {
 }
 
 // NewRequestBinder creates a new binder for reading a request.
-func newUntypedRequestBinder(parameters map[string]spec.Parameter, spec *spec.Swagger, formats strfmt.Registry) *untypedRequestBinder {
+func NewUntypedRequestBinder(parameters map[string]spec.Parameter, spec *spec.Swagger, formats strfmt.Registry) *untypedRequestBinder {
 	binders := make(map[string]*untypedParamBinder)
 	for fieldName, param := range parameters {
 		binders[fieldName] = newUntypedParamBinder(param, spec, formats)
