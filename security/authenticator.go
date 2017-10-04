@@ -19,7 +19,7 @@ import (
 	"strings"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime"
+	"github.com/nakaji-s/runtime"
 )
 
 // HttpAuthenticator is a function that authenticates a HTTP request

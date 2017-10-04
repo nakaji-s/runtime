@@ -23,11 +23,11 @@ import (
 
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/loads"
-	"github.com/go-openapi/runtime"
-	testingutil "github.com/go-openapi/runtime/internal/testing"
-	"github.com/go-openapi/runtime/middleware/untyped"
-	"github.com/go-openapi/runtime/security"
-	"github.com/go-openapi/runtime/yamlpc"
+	"github.com/nakaji-s/runtime"
+	testingutil "github.com/nakaji-s/runtime/internal/testing"
+	"github.com/nakaji-s/runtime/middleware/untyped"
+	"github.com/nakaji-s/runtime/security"
+	"github.com/nakaji-s/runtime/yamlpc"
 	"github.com/stretchr/testify/assert"
 )
 

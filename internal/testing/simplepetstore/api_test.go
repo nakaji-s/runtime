@@ -19,7 +19,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/go-openapi/runtime"
+	"github.com/nakaji-s/runtime"
 	"github.com/stretchr/testify/assert"
 )
 

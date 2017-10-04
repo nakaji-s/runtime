@@ -17,7 +17,7 @@ package client
 import (
 	"encoding/base64"
 
-	"github.com/go-openapi/runtime"
+	"github.com/nakaji-s/runtime"
 	"github.com/go-openapi/strfmt"
 )
 

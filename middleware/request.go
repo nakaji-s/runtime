@@ -19,7 +19,7 @@ import (
 	"reflect"
 
 	"github.com/go-openapi/errors"
-	"github.com/go-openapi/runtime"
+	"github.com/nakaji-s/runtime"
 	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
 )

@@ -31,7 +31,7 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/net/context/ctxhttp"
 
-	"github.com/go-openapi/runtime"
+	"github.com/nakaji-s/runtime"
 	"github.com/go-openapi/strfmt"
 )
 

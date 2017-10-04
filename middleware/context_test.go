@@ -22,9 +22,9 @@ import (
 
 	"github.com/go-openapi/loads"
 	"github.com/go-openapi/loads/fmts"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/internal/testing/petstore"
-	"github.com/go-openapi/runtime/middleware/untyped"
+	"github.com/nakaji-s/runtime"
+	"github.com/nakaji-s/runtime/internal/testing/petstore"
+	"github.com/nakaji-s/runtime/middleware/untyped"
 	"github.com/stretchr/testify/assert"
 )
 

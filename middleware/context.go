@@ -25,9 +25,9 @@ import (
 	"github.com/go-openapi/analysis"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/loads"
-	"github.com/go-openapi/runtime"
-	"github.com/go-openapi/runtime/middleware/untyped"
-	"github.com/go-openapi/runtime/security"
+	"github.com/nakaji-s/runtime"
+	"github.com/nakaji-s/runtime/middleware/untyped"
+	"github.com/nakaji-s/runtime/security"
 	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
 )
